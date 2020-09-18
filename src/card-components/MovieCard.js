@@ -26,12 +26,7 @@ const posterMap = {
   'the-trash-man': ttm,
   'default': defaultPoster
 }
-MovieCard.defaultProps = {
-	title: 'Unknown',
-	IMDBRating: null,
-	genres: ['No Genre(s) Found'],
-	poster: 'default'
-};
+
 export default class MovieCard extends Component {
 
   render() {
